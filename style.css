@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background: #f9faff;
+  color: #1a1a1a;
+}
+
+/* Hero / Header */
+.hero {
+  background: url("/images/Hero-bg.png") no-repeat center/cover;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #3f5efb;
+}
+
+.signup-btn, .cta-btn {
+  background: #3f5efb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+
