@@ -42,4 +42,133 @@ body {
   margin: 20px 0;
 }
 
+/* Action Section */
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+}
+
+.action-text {
+  max-width: 45%;
+}
+
+.action-text h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.action-text p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.action-img img {
+  width: 400px;
+  border-radius: 16px;
+}
+
+/* Stats Section */
+.stats {
+  text-align: center;
+  background: #eef2ff;
+  margin: 60px 80px;
+  border-radius: 12px;
+  padding: 50px 20px;
+}
+
+.stats h2 {
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.stats-grid h3 {
+  font-size: 28px;
+  color: #3f5efb;
+}
+
+/* Reviews */
+.reviews {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.reviews-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 280px;
+  text-align: left;
+}
+
+.stars {
+  color: gold;
+  margin: 0;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 80px;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9faff;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #666;
+}
 
